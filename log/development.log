@@ -1,0 +1,50 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-06 10:53:05) [GET]
+
+ActionController::RoutingError (No route matches "/hel" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-06 11:03:05) [GET]
+
+ActionController::RoutingError (No route matches "/controller/action" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-06 11:03:22) [GET]
+
+ActionController::RoutingError (No route matches "/controller/action" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-06 11:04:26) [GET]
+Rendering pages/home
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-06 11:04:53) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#conta (for 127.0.0.1 at 2011-01-06 11:05:02) [GET]
+
+ActionController::UnknownAction (No action responded to conta. Actions: contact and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-01-06 11:05:07) [GET]
+Rendering pages/contact
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/contact]
