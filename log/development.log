@@ -151,3 +151,1102 @@ Processing PagesController#about (for 127.0.0.1 at 2011-01-06 15:21:28) [GET]
 Rendering template within layouts/application
 Rendering pages/about
 Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:16:25) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+
+ActionView::TemplateError (undefined local variable or method `media' for #<ActionView::Base:0x7fbeadba9578>) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6: <%= stylesheet_link_tag 'blueprint/screen', media => 'screen' %>
+7: <%= stylesheet_link_tag 'blueprint/print', media => 'print' %>
+8: v <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+9:     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (37.1ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:16:32) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (undefined local variable or method `media' for #<ActionView::Base:0x7fbeaddff070>) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6: <%= stylesheet_link_tag 'blueprint/screen', media => 'screen' %>
+7: <%= stylesheet_link_tag 'blueprint/print', media => 'print' %>
+8: v <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+9:     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (115.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:16:57) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (undefined local variable or method `media' for #<ActionView::Base:0x7fbeae005d60>) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6: <%= stylesheet_link_tag 'blueprint/screen', media => 'screen' %>
+7: <%= stylesheet_link_tag 'blueprint/print', media => 'print' %>
+8: v <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+9:     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (37.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:16:59) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (undefined local variable or method `media' for #<ActionView::Base:0x7fbeadd94c48>) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6: <%= stylesheet_link_tag 'blueprint/screen', media => 'screen' %>
+7: <%= stylesheet_link_tag 'blueprint/print', media => 'print' %>
+8: v <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+9:     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (114.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:17:22) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (undefined local variable or method `media' for #<ActionView::Base:0x7f36c1e95b70>) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6: <%= stylesheet_link_tag 'blueprint/screen', media => 'screen' %>
+7: <%= stylesheet_link_tag 'blueprint/print', media => 'print' %>
+8: v <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+9:     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (38.9ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:18:23) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+
+ActionView::TemplateError (undefined local variable or method `media' for #<ActionView::Base:0x7f36c211bb88>) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6: <%= stylesheet_link_tag 'blueprint/screen', media => 'screen' %>
+7: <%= stylesheet_link_tag 'blueprint/print', media => 'print' %>
+8: <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+9:     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (120.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:18:36) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+
+ActionView::TemplateError (undefined local variable or method `media' for #<ActionView::Base:0x7ff08da04b70>) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6: <%= stylesheet_link_tag 'blueprint/screen', media => 'screen' %>
+7: <%= stylesheet_link_tag 'blueprint/print', media => 'print' %>
+8: <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+9:     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (38.4ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:19:24) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+
+ActionView::TemplateError (undefined local variable or method `media' for #<ActionView::Base:0x7f81c2861d20>) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6: <%= stylesheet_link_tag 'blueprint/screen', media => 'screen' %>
+7: <%= stylesheet_link_tag 'blueprint/print', media => 'print' %>
+8: <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+9:     <%= stylesheet_link_tag 'custom', media => 'screen' %>
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (41.9ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:19:26) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+
+ActionView::TemplateError (undefined local variable or method `media' for #<ActionView::Base:0x7f81c2ae7c48>) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6: <%= stylesheet_link_tag 'blueprint/screen', media => 'screen' %>
+7: <%= stylesheet_link_tag 'blueprint/print', media => 'print' %>
+8: <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+9:     <%= stylesheet_link_tag 'custom', media => 'screen' %>
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (39.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:20:21) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (undefined local variable or method `media' for #<ActionView::Base:0x7f81c2d189b8>) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6: <%= stylesheet_link_tag 'blueprint/screen', media => 'screen' %>
+7: <%= stylesheet_link_tag 'blueprint/print', media => 'print' %>
+8: <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+9:     <%= stylesheet_link_tag 'custom', media => 'screen' %>
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (35.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:21:20) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:21:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:21:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:22:15) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:22:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:22:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:26:39) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:26:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:26:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:26:46) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:26:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-01-07 10:26:56) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:26:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:26:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:30:01) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:30:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:30:02) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:30:27) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:30:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:30:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:32:22) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:32:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:32:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:33:46) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 10:33:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:39:04) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:39:05) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:39:50) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:45:06) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:45:08) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:46:55) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:46:57) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:47:21) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:47:23) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:47:39) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:48:46) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:49:37) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:50:10) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:50:25) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:52:17) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 10:52:19) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:52:22) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:52:25) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:54:00) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 10:59:21) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6:     <%= render 'layouts/stylesheets' %>
+7:   </head>
+8:   <body>
+9:     <div class="container">
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (39.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:01:07) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6:     <%= render 'layouts/stylesheets' %>
+7:   </head>
+8:   <body>
+9:     <div class="container">
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (116.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:01:09) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6:     <%= render 'layouts/stylesheets' %>
+7:   </head>
+8:   <body>
+9:     <div class="container">
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:01:10) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6:     <%= render 'layouts/stylesheets' %>
+7:   </head>
+8:   <body>
+9:     <div class="container">
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (119.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 11:01:56) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6:     <%= render 'layouts/stylesheets' %>
+7:   </head>
+8:   <body>
+9:     <div class="container">
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (39.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:02:04) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (Missing layout layouts/_stylesheets.erb in view path app/views) on line #6 of app/views/layouts/application.html.erb:
+3: <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+4:   <head>
+5:     <title><%= title %></title>
+6:     <%= render 'layouts/stylesheets' %>
+7:   </head>
+8:   <body>
+9:     <div class="container">
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (114.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:04:03) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.3ms)
+Rendered layouts/_header (1.1ms)
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:04:24) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (0.5ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:06:25) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.5ms)
+
+ActionView::TemplateError (Missing template layout/_footer.erb in view path app/views) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layout/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (112.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:07:07) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.5ms)
+
+ActionView::TemplateError (Missing template layout/_footer.erb in view path app/views) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layout/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (38.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:07:09) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (0.7ms)
+
+ActionView::TemplateError (Missing template layout/_footer.erb in view path app/views) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layout/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (40.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:07:17) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.4ms)
+
+ActionView::TemplateError (Missing template layout/_footer.erb in view path app/views) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layout/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (38.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:07:19) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.5ms)
+
+ActionView::TemplateError (Missing template layout/_footer.erb in view path app/views) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layout/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (40.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:07:23) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.4ms)
+
+ActionView::TemplateError (Missing template layout/_footer.erb in view path app/views) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layout/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (113.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:07:24) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (1.0ms)
+
+ActionView::TemplateError (Missing template layout/_footer.erb in view path app/views) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layout/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (51.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:07:32) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.4ms)
+
+ActionView::TemplateError (Missing template layout/_footer.erb in view path app/views) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layout/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (146.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:08:06) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.4ms)
+
+ActionView::TemplateError (Missing template layout/_footer.erb in view path app/views) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layout/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (39.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:08:11) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.4ms)
+Rendered layouts/_header (0.4ms)
+
+ActionView::TemplateError (No such file or directory - /home/syang/firstapp/sample_app/app/views/layouts/_footer.html.erb) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layouts/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (134.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:08:12) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.4ms)
+
+ActionView::TemplateError (No such file or directory - /home/syang/firstapp/sample_app/app/views/layouts/_footer.html.erb) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layouts/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (41.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:08:12) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.4ms)
+
+ActionView::TemplateError (No such file or directory - /home/syang/firstapp/sample_app/app/views/layouts/_footer.html.erb) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layouts/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (43.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:08:25) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (1.1ms)
+Rendered layouts/_footer (0.8ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:08:55) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.7ms)
+
+ActionView::TemplateError (No such file or directory - /home/syang/firstapp/sample_app/app/views/layouts/_footer.erb) on line #15 of app/views/layouts/application.html.erb:
+12:         <%= yield %>
+13:       </div>
+14: 
+15:       <%= render 'layouts/footer' %>
+16:     </div>
+17:   </body>
+18: </html>
+
+    app/views/layouts/application.html.erb:15
+
+Rendered rescues/_trace (119.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:09:18) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.8ms)
+Completed in 29ms (View: 10, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:09:32) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (15.1ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:10:08) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:11:11) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:11:39) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:14:52) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+
+ActionView::TemplateError (undefined local variable or method `root_path' for #<ActionView::Base:0x7f81c2d0a2c8>) on line #4 of app/views/layouts/_header.html.erb:
+1: <div id="header" class="round">
+2:   <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", help_path %></li>
+6:     <li><%= link_to "Sign in", singin_path %></li>
+7:   </ul>
+
+    app/views/layouts/_header.html.erb:4
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (44.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 11:15:40) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (1.3ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2011-01-07 11:21:59) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 85ms (View: 81, DB: 0) | 200 OK [http://localhost/pages/help]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-01-07 12:02:30) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.1ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 89ms (View: 88, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2011-01-07 12:02:33) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.4ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/help]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2011-01-07 12:02:40) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/help]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2011-01-07 12:02:51) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.5ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/help]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2011-01-07 12:12:05) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (1.0ms)
+
+ActionView::TemplateError (undefined local variable or method `signin_path' for #<ActionView::Base:0x7fe3da9777a8>) on line #6 of app/views/layouts/_header.html.erb:
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", about_path %></li>
+6:     <li><%= link_to "Sign in", signin_path %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:6
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (116.9ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 12:12:08) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.6ms)
+
+ActionView::TemplateError (undefined local variable or method `signin_path' for #<ActionView::Base:0x7fe3da9be4a0>) on line #6 of app/views/layouts/_header.html.erb:
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", about_path %></li>
+6:     <li><%= link_to "Sign in", signin_path %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:6
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-01-07 12:12:30) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (2.8ms)
+Rendered layouts/_footer (1.7ms)
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://localhost/]

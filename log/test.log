@@ -283,3 +283,202 @@ Rendering pages/home
 Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
 Rendering pages/home
 Rendering pages/contact
+
+
+Processing PagesController#about (for 0.0.0.0 at 2011-01-06 15:22:59) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2011-01-06 15:22:59) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2011-01-06 15:22:59) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2011-01-06 15:22:59) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2011-01-06 15:22:59) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2011-01-06 15:22:59) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/home]
+Rendering pages/home
+Rendering pages/contact
+
+
+Processing PagesController#help (for 0.0.0.0 at 2011-01-07 11:58:54) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (1.1ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2011-01-07 11:58:54) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.5ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2011-01-07 11:58:54) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2011-01-07 11:58:54) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2011-01-07 11:58:54) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2011-01-07 11:58:54) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2011-01-07 11:58:54) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Rendered layouts/_header (0.3ms)
+Rendered layouts/_footer (0.1ms)
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/home]
+Rendering pages/home
+Rendering pages/contact
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 11:58:54) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  spec/integration/layout_links_spec.rb:5
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.3.0) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 11:58:54) [GET]
+
+ActionController::RoutingError (No route matches "/contact" with {:method=>:get}):
+  spec/integration/layout_links_spec.rb:10
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.3.0) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 11:58:54) [GET]
+
+ActionController::RoutingError (No route matches "/about" with {:method=>:get}):
+  spec/integration/layout_links_spec.rb:15
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.3.0) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-07 11:58:54) [GET]
+
+ActionController::RoutingError (No route matches "/help" with {:method=>:get}):
+  spec/integration/layout_links_spec.rb:20
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.3.0) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendering rescues/layout (not_found)
